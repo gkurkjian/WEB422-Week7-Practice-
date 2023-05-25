@@ -5,7 +5,7 @@ export default function Component1(props) {
     
     return (
         <>
-            <Component2 />
+            <Component2 count={props.count}/>
         </>
     )
 }

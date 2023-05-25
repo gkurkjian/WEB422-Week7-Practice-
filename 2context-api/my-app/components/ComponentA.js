@@ -5,7 +5,7 @@ export default function ComponentA(props) {
     
     return (
         <>
-            <ComponentB />
+            <ComponentB setCount={props.setCount}/>
         </>
     )
 }

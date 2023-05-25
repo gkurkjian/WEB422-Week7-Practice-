@@ -4,7 +4,7 @@ export default function Component3(props) {
     return (
         <>
             <h3>This coming from Component(3) </h3>
-            Value: 
+            Value: {props.count}
         </>
-    )
+    );
 }

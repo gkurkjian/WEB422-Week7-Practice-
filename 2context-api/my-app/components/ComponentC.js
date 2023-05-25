@@ -4,7 +4,7 @@ export default function ComponentC(props) {
     return (
         <>
             <h5>This coming from Component(C)</h5>
-            <button onClick={e=>{console.log("Times Clicked")}}>Increase Value</button>
+            <button onClick={e => {props.setCount(count => count + 1)}}>Increase Value</button>
         </>
     )
 }
